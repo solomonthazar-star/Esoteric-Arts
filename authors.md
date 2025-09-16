@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Authors
+layout: single
+title: "Authors"
 permalink: /authors/
 ---
 
