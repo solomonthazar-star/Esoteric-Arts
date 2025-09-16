@@ -1,0 +1,19 @@
+title: "Esoteric Arts"
+email: esotericartsemail@proton.me
+description: "Exploring mythology, comics, and storytelling through our authors and works."
+baseurl: "" 
+url: "https://solomonthazar-star.github.io/Esoteric-Arts"
+
+theme: minima
+
+# Navbar pages
+header_pages:
+  - index.md
+  - about.md
+  - authors.md
+  - works.md
+  - contact.md
+
+# Use custom head (for translation + favicon)
+include:
+  - _includes/head-custom.html
