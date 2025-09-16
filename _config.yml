@@ -4,9 +4,12 @@ description: "Exploring mythology, comics, and storytelling through our authors 
 baseurl: "" 
 url: "https://solomonthazar-star.github.io/Esoteric-Arts"
 
-theme: minima
+# Theme (professional look)
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-include-cache
 
-# Navbar pages
+# Navigation bar
 header_pages:
   - index.md
   - about.md
@@ -14,6 +17,6 @@ header_pages:
   - works.md
   - contact.md
 
-# Use custom head (for translation + favicon)
+# Custom includes
 include:
   - _includes/head-custom.html
